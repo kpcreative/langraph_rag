@@ -1,0 +1,30 @@
+# Environment variables - NEVER commit this
+.env
+*.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# ChromaDB local vector store
+chroma_db/
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
